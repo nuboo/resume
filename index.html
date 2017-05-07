@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Refresh" Content="10; ./welcome.html">
 
-<title>The ZhiSheng's Website</title>
+<title>The Nuboo's Website</title>
 <style type="text/css">
     canvas {display: block;}
 	html
@@ -37,10 +37,10 @@
 			c.height = window.innerHeight;
 			c.width = window.innerWidth;
 
-			var txts = "052あ7B8い甘GANE士CHENG成う1え9お甘かき士くけこ成EFCADG甘HIJK士LMNO成PQRSTU甘VWXYZE士FCADGH成IJKLM";
+			var txts = "abcdefghijklmnopqrstuvwxyz";
 			txts = txts.split("");
 
-			var font_size = 28;
+			var font_size = 24;
 			var columns = c.width/font_size;
 
 			//每行要输出数组
@@ -51,15 +51,15 @@
 
 			//字符随机颜色
 			var wh_color = new Array();
-			wh_color[0]="#57CE13";
-			wh_color[1]="#50BF7F";
-			wh_color[2]="#50BF7F";
+			wh_color[0]="#024b1f";
+			wh_color[1]="#048839";
+			wh_color[2]="#05da5a";
 
 			//绘出字符
 			function draw()
 			{
 				//黑色背景，半透明显示
-				ctx.fillStyle = "rgba(0, 0, 0, 0.09)";
+				ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
 				ctx.fillRect(0, 0, c.width, c.height);
 
 				//ctx.fillStyle = "#50BF7F";
